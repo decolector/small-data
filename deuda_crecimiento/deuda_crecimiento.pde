@@ -11,7 +11,7 @@ void setup(){
   db = new SQLite(this, "deuda-crecimiento.db");
   if(db.connect()){
     //realiza una peticion a la bd usando sql
-    db.query("SELECT * FROM todo where SeriesCode = \"NY.GDP.MKTP.KD.ZG\" ORDER BY Time ASC");
+    db.query("SELECT * FROM todo WHERE SeriesCode = \"NY.GDP.MKTP.KD.ZG\" ORDER BY Time ASC");
     
     //avanza por todos los registros, leyendolos y guardandolos en el array crecimiento
     while(db.next()){
@@ -19,11 +19,13 @@ void setup(){
       float c = db.getFloat("ARG");
       println(c);
       //si no es un numero (porque el campo esta vacio), lo guardamos en la base de datos
+
       if(Float.isNaN(c)){
         println("El campo esta vacio");
       }else{
         crecimiento = append(crecimiento, c);
       }
+      
     }
   }
 }

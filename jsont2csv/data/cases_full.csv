@@ -1,0 +1,29 @@
+source,target,type, posx, poxy
+Microsoft,Amazon,licensing,0.18122733,0.44717675
+Microsoft,HTC,licensing,0.552171,0.20417774
+Samsung,Apple,suit,0.6476732,0.5130558
+Motorola,Apple,suit,0.4639789,0.73022234
+Nokia,Apple,resolved,0.6362586,0.8246702
+HTC,Apple,suit,0.58932155,0.19660366
+Kodak,Apple,suit,0.03470987,0.7108092
+Microsoft,Barnes & Noble,suit,0.66401845,0.21610743
+Microsoft,Foxconn,suit,0.12090695,0.49981898
+Oracle,Google,suit,0.8654459,0.12187046
+Apple,HTC,suit,0.46965003,0.07340944
+Microsoft,Inventec,suit,0.6640292,0.5632607
+Samsung,Kodak,resolved,0.6072785,0.5110695
+LG,Kodak,resolved,0.29433644,0.2935701
+RIM,Kodak,suit,0.24836284,0.38251388
+Sony,LG,suit,0.54507136,0.1789431
+Kodak,LG,resolved,0.24148023,0.6029932
+Apple,Nokia,resolved,0.85117096,0.95676357
+Qualcomm,Nokia,resolved,0.9681544,0.06395632
+Apple,Motorola,suit,0.1607498,0.5276622
+Microsoft,Motorola,suit,0.5532385,0.3302791
+Motorola,Microsoft,suit,0.89421254,0.36451888
+Huawei,ZTE,suit,0.04483235,0.5990082
+Ericsson,ZTE,suit,0.8025112,0.078581214
+Kodak,Samsung,resolved,0.66133815,0.3403883
+Apple,Samsung,suit,0.34693033,0.98947877
+Kodak,RIM,suit,0.25221783,0.7900371
+Nokia,Qualcomm,suit,0.6852171,0.22299504
